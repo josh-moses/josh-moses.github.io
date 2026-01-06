@@ -157,7 +157,7 @@
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>I am a Northeastern University student conducting peptide engineering research at Massachusetts General Hospital and Harvard Medical School. My work focuses on radiopharmaceutical development for targeted cancer therapy. I am interested in pursuing biomedical research that integrates computational and experimental approaches.</p>
+            <p>I am a senior at Northeastern University student conducting peptide engineering research at Massachusetts General Hospital and Harvard Medical School. My work focuses on radiopharmaceutical development for targeted cancer therapy. I am interested in pursuing biomedical research that integrates computational and experimental approaches.</p>
         </section>
         
         <section id="research">
@@ -167,32 +167,39 @@
                 <p>Engineering peptides for tumor targeting and drug delivery in gastric, ovarian, and pancreatic cancers using solid-phase peptide synthesis, LC-MS/HPLC analysis, and cell culture techniques.</p>
             </div>
             <div class="project">
-                <h3>Computational Biology</h3>
-                <p>Applying machine learning and computational modeling using Python (Biopython, PyRosetta) and R for peptide analysis, biostatistics, and data visualization.</p>
+                <h3>Computational Biology & Biostatistics</h3>
+                <p>Applying machine learning, survival analysis, and computational modeling using Python (Biopython, PyRosetta, TensorFlow) and R (survival, tidyverse) for peptide analysis, cancer genomics, and statistical inference.</p>
             </div>
             <div class="project">
                 <h3>Analytical Chemistry</h3>
-                <p>Expertise in LC-MS, HPLC, and various analyses for evaluating therapeutic efficacy of biomolecules.</p>
+                <p>Expertise in LC-MS, HPLC, flow cytometry, and various analytical techniques for evaluating therapeutic efficacy of biomolecules.</p>
             </div>
         </section>
         
         <section id="projects">
             <h2>Featured Projects</h2>
+            
             <div class="project">
                 <h3>Fetal Health Classification using Machine Learning</h3>
-                <p>Developed a Random Forest classifier achieving 92.72% accuracy in predicting fetal health status from cardiotocography data. Applied feature engineering, data preprocessing, and model evaluation techniques to assist in early identification of at-risk pregnancies.</p>
-                <p><strong>Tech Stack:</strong> Python, scikit-learn, pandas, NumPy, matplotlib</p>
-                <p><a href="https://github.com/josh-moses/josh-moses.github.io/tree/main/projects/fetal-health" target="_blank" style="color: #667eea; font-weight: 500;">View Project →</a></p>
+                <p>Developed a Random Forest classifier achieving 92.72% accuracy in predicting fetal health status from cardiotocography data. Applied feature engineering, hyperparameter tuning, and model evaluation techniques to assist in early identification of at-risk pregnancies.</p>
+                <p><strong>Tech Stack:</strong> Python, scikit-learn, TensorFlow, pandas, NumPy, matplotlib</p>
+                <p><strong>Methods:</strong> Random Forest, neural networks, cross-validation, ROC analysis</p>
+                <a href="https://github.com/josh-moses/fetal-health-classification" target="_blank" class="project-link">View Project →</a>
             </div>
+            
             <div class="project">
-                <h3>Peptide Database Analysis</h3>
-                <p>Built comprehensive datasets of lab-produced peptides and analyzed variable correlations using R packages for statistical modeling and visualization.</p>
+                <h3>TCGA Breast Cancer Survival Analysis</h3>
+                <p>Performed comprehensive survival analysis on 1,050+ breast cancer patients using Kaplan-Meier curves and Cox proportional hazards regression in R. Identified significant associations between TP53/BRCA1/2 mutations and patient mortality after age adjustment (p < 0.05). Generated publication-quality visualizations and statistical reports demonstrating prognostic value of genomic profiling.</p>
+                <p><strong>Tech Stack:</strong> R, survival, survminer, tidyverse, ggplot2</p>
+                <p><strong>Methods:</strong> Cox regression, Kaplan-Meier curves, log-rank tests, hazard ratio estimation</p>
+                <a href="https://github.com/josh-moses/tcga-survival-analysis" target="_blank" class="project-link">View Project →</a>
             </div>
+            
             <div class="project">
-                <h3>Flow Cytometry Studies</h3>
-                <p>Conducted flow cytometry experiments using FITC-labeled peptides with Beckman Coulter instruments for cell targeting validation.</p>
+                <h3>Peptide Screening Pipeline Automation</h3>
+                <p>Built automated Python/Biopython pipeline for pre-screening peptide drug candidates, reducing evaluation. Integrated computational filtering with LC-MS validation data to eliminate low-potential candidates before costly synthesis.</p>
+                <p><strong>Tech Stack:</strong> Python, Biopython, PyRosetta, pandas</p>
             </div>
-        </section>
         
         <section id="skills">
             <h2>Technical Skills</h2>
