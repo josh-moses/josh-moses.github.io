@@ -29,6 +29,8 @@ This project analyzes survival outcomes for breast cancer patients stratified by
 │   └── mutation_raw.txt    # mutation data, identifying which mutations have occurred
 ├── results/
 │   └── summary_statistics.csv    # Descriptive statistics table
+│   │   ├── tp53_survival_curve.png
+│   │   └── brca_survival_curve.png
 └── README.md
 ```
 
