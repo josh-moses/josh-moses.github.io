@@ -144,11 +144,8 @@ The Random Forest algorithm provides feature importance rankings, revealing whic
 ## Author
 
 **Josh Moses**  
-Research Technician, Harvard Medical School & Massachusetts General Hospital, Department of Radiology, Division of Nuclear Medicine & Molecular Imaging
 
-Specializing in radiopharmaceutical development, peptide engineering, and machine learning applications in biomedical research.
-
-[GitHub](https://github.com/josh-moses) | [Portfolio](https://josh-moses.github.io)
+[GitHub](https://github.com/josh-moses) | [Portfolio](https://josh-moses.github.io) | [LinkedIn](https://linkedin.com/in/joshmos)
 
 ## License
 
