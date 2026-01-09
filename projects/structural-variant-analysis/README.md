@@ -1,10 +1,10 @@
-# Structural Variant Breakpoint Classification using Machine Learning
+# Structural Variant Breakpoint Analysis using Machine Learning
 
 A machine learning–based pipeline that analyzes **DNA breakpoint sequences** to classify **structural variant (SV) types** and identify sequence features associated with genomic rearrangement mechanisms.
 
 ## Project Overview
 
-This project applies **Random Forest classification** to simulated structural variant breakpoint data to distinguish between major SV classes based solely on sequence-level and genomic features:
+This project applies **Random Forest** to simulated structural variant breakpoint data to distinguish between major SV classes based solely on sequence-level and genomic features:
 
 * **Deletion**
 * **Duplication**
@@ -73,7 +73,7 @@ The simulated design allows controlled investigation of sequence biases while mi
 
 ## Results
 
-### Classification Performance
+### Performance
 
 The Random Forest model successfully distinguishes structural variant classes using sequence-derived features alone.
 
